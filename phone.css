@@ -1,0 +1,207 @@
+/* navigation */
+:root{
+    --black: #343A40;
+    --purple: #7952B3;
+    --yellow: #FFC107;
+    --white:#e2e4d7;
+}
+/* 343A40 black
+7952B3 purple
+FFC107 yellow
+E1E8EB white */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a {
+    font-size: 1.3rem;
+    padding: 5px 9px;
+    padding-bottom: 8px;
+}
+/* home section */
+#home{
+    height: 370px;
+    padding: 30px 1px;
+}
+#home::before{
+    /* height: 480px; */
+   
+        content: "";
+        /* position: relative; */
+        background: url('book4.png'); 
+        /* background-size: 1903px 1655px; */
+        background-repeat: no-repeat ;
+        /* background:; */
+         content: "";
+         background-color: transparent;
+        height: 100%;
+        /* padding-right: 340px; */
+        /* top: 0px; */
+        /* left: 0px; */
+        /* width: 100%; */
+        /* z-index: 90; */
+        opacity: 0.2;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    /* position: absolute; */
+    
+        
+    
+    
+}
+.show{
+    display: none;
+}
+.home{
+    display: none;
+  }
+#home p{
+    font-size: 18px;
+    margin-top: 13px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+#navbar::before {
+    content: "";
+    background-color: transparent;
+    position: absolute;
+    height: 90%;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    position: unset;
+    top: 0px;
+}
+/* Services section */
+#services{
+    flex-direction: column;
+
+}
+#services .box{
+    padding: 13px 14px;
+    margin: 6px -78px;
+    /* border-radius: 28px; */
+    /* background: whitesmoke; */
+    margin-bottom: 20px;
+}
+.box{
+        /* border: 2px solid rgb(0, 0, 0); */
+        width: 350px;
+        align-items: center;
+        padding: 23px;
+        margin: 23px;
+        /* border-radius: 10px; */
+        background-color: var(--black);
+    }
+/* client section */
+#clients::before{
+        content: "";
+        position: absolute;
+    background: none;
+       
+       height: 355px;
+    width: 100%;
+    
+    opacity: 0.7;
+    }
+#clients{
+    flex-wrap: wrap;
+    width: 85%;
+    box-shadow: 3px 3px 30px var(--purple);
+}
+#clients img{
+    width: 220px;
+    padding: 6px;
+    height: auto;
+
+}
+
+/* contact us section */
+#contact-box form{
+    width: 80%;
+
+}
+#contact::before{
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+  background-color: var(--black);
+  background: none;
+  /* background-image: url(broom2.png) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.1;
+  margin-right: 150px; */
+}
+.client-item {
+    padding: 0px;
+    margin: 50px;
+    background: var(--black);
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* border-radius: 50px; */
+}
+
+/* Footer */
+/* utilities */
+.h-primary {
+    font-size: 2.8rem;
+    padding: 12px;
+    position: relative;
+    margin-top: 332px;
+    /* margin-top: 11px; */
+}
+.h-primaryclient {
+    font-size: 3rem;
+    /* padding: 2px; */
+    /* margin-top: 50px; */
+    text-align: center;
+    margin-top: 84px;}
+.btn{
+    font-size: 32px;
+    padding: 8px 8px;
+
+}
+.sage{
+    display: none;
+}
+.foo0 {
+    width: 170px;
+    height: 170px;
+    background: #444;
+    animation: corner2 20s;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+    margin: auto;
+    /* margin-left: 15rem; */
+    margin-top: 220px;
+  }
+  .foo3{
+    display: none;
+  }
+  .foo4{
+    display: none;
+  }
+  .foo5{
+    display: none;
+  }
+  .foo2{
+    margin-left: 3rem;
+    margin-top: 3rem;
+  }

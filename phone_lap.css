@@ -1,0 +1,34 @@
+:root{
+    --black: #343A40;
+    --purple: #7952B3;
+    --yellow: #FFC107;
+    --white:#e2e4d7;
+}
+/* 343A40 black
+7952B3 purple
+FFC107 yellow
+E1E8EB white */
+
+.foo0 {
+    width: 120px;
+    height: 120px;
+    background: #444;
+    animation: corner2 20s;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+    margin: auto;
+    margin-left: 570px;
+    margin-top: 310px;
+  }
+  .sage{
+    /* display: none; */
+    /* size: 230px 230px; */
+  }
+  
